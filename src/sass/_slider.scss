@@ -1,0 +1,120 @@
+.slider {
+  width: 100%;
+  margin: 0 auto;
+
+  .slick-slide img {
+    width: 100%;
+  }
+
+  .slick-next,
+  .slick-prev {
+    z-index: 999;
+    top: 25%;
+
+    @media only screen and (min-width: 320px) {
+      width: 22px;
+      top: 23%;
+    }
+
+    @media only screen and (min-width: 375px) {
+      width: 30px;
+      top: 30%;
+    }
+
+    @media only screen and (min-width: 768px) {
+      width: 50px;
+      top: 35%;
+    }
+
+    @media only screen and (min-width: 1024px) {
+      top: 45%;
+    }
+
+    &:before {
+      content: '' ;
+    }
+  }
+
+  .slick-next {
+    right: 35px ;
+  }
+
+  .slick-prev {
+    left: 35px ;
+  }
+
+  .slick-track {
+    background-color: transparent;
+    padding: 0;
+
+    @media only screen and (min-width: 1024px) {
+      background-color: #e51127;
+      padding: 130px 0 100px;
+    }
+  }
+
+  .standing-out {
+    padding: 0;
+    @media only screen and (min-width: 1024px) {
+      padding: 0 40px;
+    }
+  }
+
+  .banner__text.slider-caption {
+    opacity: 1;
+    transition: transform 500ms;
+    z-index: 9999;
+    background-color: #e51127;
+    color: #fff;
+
+    @media only screen and (min-width: 1024px) {
+      opacity: 0;
+      background-color: #fff;
+      color: #000;
+      left: 6vw;
+      top: 5px;
+      width: 170px;
+    }
+
+    .small-line {
+      background-color: #fff;
+      
+      @media only screen and (min-width: 1024px) {
+        background-color: #e51127;
+      }
+    }
+  }
+
+  .slick-center.standing-out .banner__text.slider-caption {
+    opacity: 1;
+  }
+
+  // Left side slide
+  .slick-slide + .standing-out {
+
+    transition: transform 500ms;
+    
+    @media only screen and (min-width: 1024px) {
+      transform: translateY(8%) translateX(13%) scale(0.7);
+    }
+  }
+
+  // Right side slide
+  .slick-active + .standing-out {
+    transition: transform 500ms;
+
+    @media only screen and (min-width: 1024px) {
+      transform: translateY(-14%) translateX(-11%) scale(0.75);
+    }
+  }
+
+  .slick-center.standing-out {
+
+    @media only screen and (min-width: 1024px) {
+      transform: scale(1) !important;
+      z-index: 999;
+    }
+
+  }
+
+}

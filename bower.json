@@ -1,0 +1,18 @@
+{
+  "name": "Thomas Wolter - Profile page",
+  "description": "This is the profile page of Thomas Wolter a Front-End Developer from north London.",
+  "main": "",
+  "authors": [
+    "Thomas Wolter"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "susy": "^2.2.12"
+  }
+}

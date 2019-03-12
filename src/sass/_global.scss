@@ -1,0 +1,48 @@
+html, body {
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased; 
+  -moz-osx-font-smoothing: grayscale; 
+  text-rendering: optimizeLegibility;
+}
+
+img,
+embed,
+object,
+video {
+  max-width: 100%;
+  height:auto;
+  outline: none;
+}
+
+img {
+  display: block;
+}
+
+div {
+  outline: none;
+}
+
+.js-backToTop {
+  display: none;
+  max-width: 90px;
+  padding: 10px 10px 12px;
+  margin: 0 auto;
+  background-color: #585858;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+
+  @media only screen and (min-width: 414px) {
+     display: block;
+  }
+
+  &:after {
+    content: "\e009";
+    float: right;
+    font-family: 'glyphs14';
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    top: -4px;
+  }
+}

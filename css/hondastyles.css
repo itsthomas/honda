@@ -1,0 +1,2066 @@
+/*! Build : April 19, 2016 10:23:26 */
+body,html {
+  margin: 0;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-y: scroll;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-rendering: auto;
+}
+
+body {
+  font-family: ProximaNovaExCnSReg;
+  color: #333;
+  background: #fff;
+}
+
+.nav-footer-wrapper {
+  font-size: 62.5%;
+  line-height: .9em;
+}
+
+article,footer,header,nav,section {
+  display: block;
+}
+
+a img {
+  border: 0;
+}
+
+li li,li p,p p {
+  font-size: 1em!important;
+}
+
+.hidden {
+  display: none;
+  visibility: hidden;
+}
+
+.clearfix {
+  display: block;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+a {
+  text-decoration: underline;
+  color: #00803e;
+}
+
+
+.nav-footer-wrapper {
+    background: #f4f3f8;
+}
+
+.nav-footer-wrapper h1,.nav-footer-wrapper h2,.nav-footer-wrapper h3,.nav-footer-wrapper h4,.nav-footer-wrapper h5,.nav-footer-wrapper h6 {
+  margin: 0 0 .6em;
+  padding: 0;
+  font-family: ProximaNovaExCnLight,Tahoma,Helvetica,Arial,sans-serif;
+  font-size: 1.6em;
+  font-weight: 400;
+  color: #1f1f1f;
+}
+
+.nav-footer-wrapper h1 {
+  margin: .593em 0 .35em;
+  padding: 0;
+  font-size: 5.4em;
+  line-height: 1em;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+  color: #dc182d;
+}
+
+.nav-footer-wrapper h1:before {
+  content: "";
+  background: #dc182d;
+  display: block;
+  height: 2px;
+  margin-bottom: 19px;
+  width: 45px;
+}
+
+.nav-footer-wrapper h2 {
+  font-size: 4em;
+  line-height: 1.2em;
+  letter-spacing: -.5px;
+}
+
+.nav-footer-wrapper h3,.nav-footer-wrapper h4,.nav-footer-wrapper h6,m .nav-footer-wrapper h5 {
+  margin: 0 0 .25em;
+  font-size: 2.3em;
+  line-height: 1.2em;
+  text-transform: none;
+  color: #3b3b3b;
+}
+
+.nav-footer-wrapper h3 {
+  letter-spacing: .5px;
+}
+
+.nav-footer-wrapper h4,.nav-footer-wrapper h5,.nav-footer-wrapper h6 {
+  margin-bottom: .3em;
+  font-family: ProximaNovaExCnSbold,Tahoma,Helvetica,Arial,sans-serif;
+  font-size: 1.8em;
+  line-height: 1.3em;
+  letter-spacing: 1px;
+}
+
+.nav-footer-wrapper li h3,.nav-footer-wrapper li h4 {
+  font-size: 1.1em;
+  margin-bottom: 0;
+  color: #3b3b3b;
+}
+
+.nav-footer-wrapper p,.nav-footer-wrapper ul {
+  margin: 0 0 1.4em;
+}
+
+.nav-footer-wrapper code,.nav-footer-wrapper label,.nav-footer-wrapper li,.nav-footer-wrapper p {
+  font-size: 1.6em;
+  line-height: 1.4em;
+  color: #555;
+}
+
+.nav-footer-wrapper p code {
+  font-size: 1em;
+}
+
+.nav-footer-wrapper ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-footer-wrapper ul li {
+  padding: 0;
+  margin: 0;
+}
+
+.nav-footer-wrapper li ul {
+  margin: 1em 0 0;
+}
+
+.nav-footer-wrapper ul ul {
+  margin: .45em 0 0;
+}
+
+.nav-footer-wrapper li p {
+  margin-bottom: .45em;
+}
+
+.nav-footer-wrapper form {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.nav-footer-wrapper button,.nav-footer-wrapper input {
+  vertical-align: middle;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  font-family: Tahoma,Arial,Helvetica,sans-serif;
+  font-size: 1.6em;
+  text-align: left;
+  color: #333;
+}
+
+.nav-footer-wrapper input[type=radio] {
+  vertical-align: text-bottom;
+  border: 0;
+}
+
+.nav-footer-wrapper input[type=checkbox] {
+  vertical-align: bottom;
+}
+
+.nav-footer-wrapper input::-webkit-input-placeholder {
+  color: #666;
+}
+
+.nav-footer-wrapper input:-ms-input-placeholder {
+  color: #666;
+}
+
+.nav-footer-wrapper input:-moz-placeholder {
+  color: #666;
+}
+
+.nav-footer-wrapper label,button,input[type=button],input[type=submit] {
+  cursor: pointer;
+}
+
+.nav-footer-wrapper .content button {
+  display: block;
+  margin: 1em 0 2em;
+  padding: .4em;
+  width: 100%;
+  border: 1px solid #666;
+  outline: 0;
+  border-radius: 5px;
+  font-family: Arial,Verdana,Helvetica,sans-serif;
+  background: #ccc;
+}
+
+.nav-footer-wrapper .content button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+.nav-footer-wrapper .content button:hover {
+  border-color: #000;
+}
+
+.nav-footer-wrapper .content label {
+  display: block;
+  margin: 0 0 .1em;
+  font-weight: 700;
+}
+
+.nav-footer-wrapper .content input {
+  display: block;
+  width: 98%;
+  padding: .1em 1%;
+}
+
+.nav-footer-wrapper #page,.nav-footer-wrapper #page:focus {
+  outline: 0;
+}
+
+.responsiveFooter .social li a:before,[class$=Ico]:before {
+  font-family: glyphs14;
+  font-size: 14px;
+  speak: none;
+  line-height: 1;
+  vertical-align: top;
+}
+
+.responsiveFooter .social li a:before,[class$='56Ico']:after,[class$='56Ico']:before,[class$=SignPostIco]:before,[class$='28Ico']:after,[class$='28Ico']:before,[class$='45Ico']:after,[class$='45Ico']:before {
+  font-family: glyphs28;
+  font-size: 28px;
+}
+
+[class$='45Ico']:after,[class$='45Ico']:before {
+  font-size: 45px;
+}
+
+[class$='56Ico']:after,[class$='56Ico']:before {
+  font-size: 50px;
+}
+
+[class$=SignPostIco],[class$=SignPostIco]:before,[class$=Diamond56Ico],[class$=Quote45Ico] {
+  position: relative;
+}
+
+[class$=Diamond56Ico]:after,[class$=Quote45Ico]:after {
+  z-index: 1;
+  left: .7em;
+  position: absolute;
+  top: .8em;
+}
+
+[class$=Diamond56Ico]:after {
+  content: "\e006";
+  color: #00803e;
+}
+
+[class$=Quote45Ico]:after {
+  content: "\e01a";
+  color: #dc182d;
+}
+
+[class$=Diamond56Ico]:before,[class$=Quote45Ico]:before {
+  position: relative;
+  z-index: 10;
+  color: #fff;
+  top: 15px;
+  left: 6px;
+}
+
+.nav-footer-wrapper .testDriveDiamond56Ico:before {
+  content: "\e000";
+}
+
+.nav-footer-wrapper .findDealerDiamond56Ico:before {
+  content: "\e002";
+}
+
+.nav-footer-wrapper .helmetDiamond56Ico:before {
+    content: "\e096";
+}
+
+.nav-footer-wrapper .brochureDiamond56Ico:before {
+  content: "\e004";
+}
+
+.nav-footer-wrapper .pinterest28Ico a:before,.nav-footer-wrapper .pinterest28Ico:before {
+  content: "\e00d";
+}
+
+.nav-footer-wrapper .twitter28Ico a:before,.nav-footer-wrapper .twitter28Ico:before {
+  content: "\e008";
+}
+
+.nav-footer-wrapper .youtube28Ico a:before,.nav-footer-wrapper .youtube28Ico:before {
+  content: "\e007";
+}
+
+.nav-footer-wrapper .facebook28Ico a:before,.nav-footer-wrapper .facebook28Ico:before {
+  content: "\e012";
+}
+
+.nav-footer-wrapper .power28Ico:before {
+  content: "\e00c";
+}
+
+.nav-footer-wrapper .accessories28Ico:before {
+  content: "\e01b";
+}
+
+.nav-footer-wrapper .line28Ico:before {
+  content: "\e00b";
+}
+
+.nav-footer-wrapper h1[class$=Ico],.nav-footer-wrapper h2[class$=Ico],.nav-footer-wrapper h3[class$=Ico] {
+  position: relative;
+  color: #1f1f1f;
+  border-bottom: 1px solid #dcdcde;
+  margin-bottom: .5em;
+  padding-bottom: .3em;
+  text-align: center;
+  font-family: ProximaNovaExCnLight,Tahoma,Arial,Helvetica,sans-serif;
+}
+
+.nav-footer-wrapper h1[class$=Ico]:before,.nav-footer-wrapper h2[class$=Ico]:before,.nav-footer-wrapper h3[class$=Ico]:before {
+  background-color: #f4f3f8;
+  bottom: -9px;
+  color: #dc182d;
+  left: 50%;
+  line-height: 1;
+  margin-left: -8px;
+  position: absolute;
+  text-align: center;
+  width: 28px;
+  font-size: 16px;
+  height: 1em;
+}
+
+.nav-footer-wrapper h1[class$='28Ico']:before,.nav-footer-wrapper h2[class$='28Ico']:before,.nav-footer-wrapper h3[class$='28Ico']:before {
+  width: 40px;
+  font-size: 28px;
+  bottom: -12px;
+  margin-left: -20px;
+}
+
+.nav-footer-wrapper [class$=SignPostIco] {
+  display: block;
+  width: 56px;
+  height: 56px;
+  margin-bottom: .6em;
+}
+
+.nav-footer-wrapper [class$=SignPostIco]:before {
+  font-size: 48px;
+  color: #dc182d;
+  left: 0;
+}
+
+.nav-footer-wrapper #outer {
+  background: #f4f3f8;
+  overflow-x: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+.nav-footer-wrapper #page {
+  text-align: left;
+}
+
+.responsiveFooter {
+  background: #fff;
+  clear: both;
+  border-top: 3px solid #585858;
+}
+
+.responsiveFooter .buttonWrap {
+  background: #f4f3f8;
+  border-bottom: 3px solid #585858;
+  text-align: center;
+}
+
+.responsiveFooter .buttonWrap .hidden {
+    display: none;
+}
+
+
+.responsiveFooter .buttonWrap a {
+  background: #585858;
+  color: #fff;
+  display: inline-block;
+  font-family: ProximaNovaExCnSbold;
+  font-size: 1.85em;
+  letter-spacing: 1px;
+  line-height: .8;
+  margin-bottom: -1px;
+  moz-transition: background-color .2s ease-in-out;
+  ms-transition: background-color .2s ease-in-out;
+  o-transition: background-color .2s ease-in-out;
+  padding: .7em .25em .7em 1em;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: background-color .2s ease-in-out;
+  webkit-transition: background-color .2s ease-in-out;
+}
+
+.responsiveFooter .buttonWrap a:hover {
+  background: #017d75;
+}
+
+.responsiveFooter .buttonWrap a:before {
+  content: "\e009";
+  float: right;
+  font-family: glyphs14;
+  font-size: 28px;
+  font-weight: 700;
+  margin-top: -4px;
+}
+
+.responsiveFooter .ctas {
+  background: #00803e;
+  display: table;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.responsiveFooter .ctas li {
+  display: table-cell;
+  font-family: ProximaNovaExCnSbold,Tahoma,Helvetica,Arial,sans-serif;
+  font-size: 1.4em;
+  margin: 0;
+  moz-transition: .3s background-color;
+  ms-transition: .3s background-color;
+  o-transition: .3s background-color;
+  position: relative;
+  text-align: center;
+  transition: .3s background-color;
+  webkit-transition: .3s background-color;
+  width: 33.333%;
+  z-index: 10;
+}
+
+.responsiveFooter .ctas li:hover {
+  background-color: #01948b;
+}
+
+.responsiveFooter .ctas li a {
+  color: #fff;
+  display: block;
+  line-height: 1;
+  padding-bottom: .8em;
+  position: relative;
+  text-decoration: none;
+}
+
+.responsiveFooter .ctas li a:before {
+  display: block;
+  left: 0;
+  margin-bottom: -5px;
+  top: 0;
+}
+
+.responsiveFooter .ctas li a:after {
+  display: none;
+}
+
+.responsiveFooter .footerHeading {
+  color: #757575;
+  font-family: ProximaNovaExCnSReg;
+  font-size: 2.2em;
+  line-height: 1.2;
+  padding: .65em .8em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.responsiveFooter article {
+  clear: both;
+}
+
+.responsiveFooter article li a {
+  color: #3b3b3b;
+  font-family: ProximaNovaExCnSbold,Tahoma,Helvetica,Arial,sans-serif;
+  font-size: .95em;
+  letter-spacing: .1em;
+  text-decoration: none;
+}
+
+.responsiveFooter .footerAccordion .footerHeading {
+  background: #f4f3f8;
+  color: #1f1f1f;
+  font-family: ProximaNovaExCnSReg;
+  font-size: 2.2em;
+  font-weight: 400;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.responsiveFooter .footerAccordion .footerHeadingButton:before {
+  color: #00803e;
+  content: "\e013";
+  float: right;
+  font-family: glyphs14;
+  font-weight: 700;
+  margin-right: 4px;
+  padding-top: 2px;
+}
+
+.responsiveFooter .footerAccordion.active .footerHeadingButton:before {
+  content: "\e015";
+}
+
+.responsiveFooter .content {
+  display: none;
+  margin-bottom: .5em;
+}
+
+.responsiveFooter .footerAccordion.active .content {
+  border-bottom: 3px solid #f4f3f8;
+  display: block;
+}
+
+.responsiveFooter .content ul {
+  padding: 0 1.8em;
+}
+
+.responsiveFooter .content ul li {
+  border-top: 1px solid #f4f3f8;
+  padding: .6em 0;
+}
+
+.responsiveFooter .content ul li:first-child {
+  border-top: 0;
+}
+
+.responsiveFooter .content ul li a:before {
+  color: #00803e;
+  content: "\e00a";
+  float: right;
+  font-family: glyphs14;
+  font-size: 22px;
+  font-weight: 700;
+  margin: 1px -9px 0 0;
+}
+
+.responsiveFooter .social {
+  margin: 1.5em auto 1.7em;
+  overflow: hidden;
+  width: 95%;
+}
+
+.responsiveFooter .social li {
+  float: left;
+  text-align: center;
+}
+
+.responsiveFooter .social li:before {
+  display: none;
+}
+
+.responsiveFooter .social[data-amount="1"] li {
+  width: 100%;
+}
+
+.responsiveFooter .social[data-amount="2"] li {
+  width: 50%;
+}
+
+.responsiveFooter .social[data-amount="3"] li {
+  width: 33%;
+}
+
+.responsiveFooter .social[data-amount="4"] li {
+  width: 25%;
+}
+
+.responsiveFooter .social li a {
+  display: block;
+  font-size: .9em;
+  line-height: 1;
+  padding-top: 34px;
+  position: relative;
+}
+
+.responsiveFooter .social li:first-child a:after,.responsiveFooter .usefulLinksResponsive .footerHeading {
+  display: none;
+}
+
+.responsiveFooter .social li a:after {
+  background-color: #d1d1d1;
+  bottom: 0;
+  content: "";
+  height: 1em;
+  left: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.responsiveFooter .social li a:before {
+  color: #00803e;
+  font-size: 24px;
+  height: 24px;
+  left: 50%;
+  margin-left: -12px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 24px;
+}
+
+.hondaHeader,.hondaHeader>.inner {
+  position: relative;
+}
+
+.responsiveFooter .usefulLinksResponsive {
+  border-top: 1px solid #00803e;
+  text-align: center;
+}
+
+.responsiveFooter .usefulLinksResponsive ul {
+  padding: 1em 0;
+}
+
+.responsiveFooter .usefulLinksResponsive li {
+  display: inline-block;
+  margin: 0 1em;
+}
+
+.responsiveFooter .usefulLinksResponsive li a {
+  border-bottom: 1px solid #7fbf9e;
+  border-top: 0;
+  color: #757575;
+  font-family: Tahoma,Arial,Helvetica,sans-serif;
+  font-size: .75em;
+}
+
+.responsiveFooter .usefulLinksResponsive li a:hover {
+  border-bottom: 3px solid #017d75;
+  color: #017d75;
+}
+
+.responsiveFooter .logoFooter {
+  clear: both;
+  padding-bottom: 2em;
+  text-align: center;
+}
+
+.responsiveFooter .logoFooter p {
+  font-size: 1.35em;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+.responsiveFooter .logoFooter img {
+  display: block;
+  margin: 2em auto;
+  width: 127px;
+}/*! Build : April 19, 2016 10:23:26 */.hondaHeader {
+  text-transform: uppercase;
+  font-family: ProximaNovaExCnLight;
+  letter-spacing: 1px;
+  width: 100%;
+}
+
+/*.hondaHeader>section.active+.ctas {
+  margin-bottom: 20px;
+}*/
+
+.hondaHeader a {
+  text-decoration: none;
+}
+
+.hondaHeader a,.hondaHeader header {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.hondaHeader header {
+  width: 100%;
+}
+
+.hondaHeader img {
+  width: 100%;
+  height: auto;
+}
+
+.hondaHeader section {
+  background: #fff;
+  display: none;
+}
+
+.hondaHeader section.active {
+  display: block;
+}
+
+.hondaHeader nav.accessibilityLinks,.hondaHeader nav.primaryNavigation ul {
+  display: none;
+}
+
+.hondaHeader .searchFormMobile {
+  background: #fff;
+  display: none;
+  padding: 0;
+}
+
+.hondaHeader .searchFormMobile.active {
+  display: block;
+}
+
+.hondaHeader .searchFormMobile button span,.hondaHeader .searchFormMobile form label,.hondaHeader>nav form,.hondaHeader>nav form label {
+  display: none;
+}
+
+.hondaHeader .searchFormMobile input {
+  border: 1px solid #e0e0e0;
+  height: 34px;
+  margin: .3em 0 1em;
+  padding-right: 40px;
+  padding-left: .5em;
+  border-radius: 0;
+  width: 100%;
+  outline: 0;
+  float: left;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.hondaHeader .searchFormMobile form {
+  position: relative;
+  overflow: hidden;
+  padding: 0 1.5em;
+}
+
+.hondaHeader .searchFormMobile button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 34px;
+  height: 34px;
+  border-radius: 0;
+  margin: .3em .75em 0 -.75em;
+  padding: 0;
+  background: #00803e;
+  font-size: 1.6em;
+  outline: 0;
+  text-align: center;
+  overflow: hidden;
+  border: 0;
+}
+
+.hondaHeader .searchFormMobile button:before {
+  content: "\e017";
+  font-family: glyphs14;
+  color: #fff;
+  font-size: 1.6em;
+  padding-right: .1em;
+}
+
+.hondaHeader>nav {
+  background: #dc182d;
+  overflow: hidden;
+  width: 100%;
+}
+
+.hondaHeader .pseudoHeading,.hondaHeader h1 {
+  background: #fff;
+  text-align: left;
+  border-bottom: 0;
+  padding: .1em 0 0 .2em;
+  overflow: hidden;
+  margin: 0;
+  height: 47px;
+}
+
+.hondaHeader .pseudoHeading {
+  font-size: 5.4em;
+}
+
+.hondaHeader .pseudoHeading,.hondaHeader .pseudoHeading a.search {
+  height: 54px;
+  line-height: 1;
+}
+
+.hondaHeader .pseudoHeading a.logo,.hondaHeader h1 a.logo {
+  width: 190px;
+  height: 40px;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  -webkit-backface-visibility: hidden;
+}
+
+.hondaHeader h1:before {
+  margin-bottom: 0;
+  display: none;
+}
+
+.hondaHeader h1:after {
+  display: none;
+}
+
+.hondaHeader .pseudoHeading a.search,.hondaHeader h1 a.search {
+  float: right;
+  background: 0;
+  margin-top: -.05em;
+}
+
+.hondaHeader .pseudoHeading a.search:before,.hondaHeader h1 a.search:before {
+  font-size: 42px;
+  content: "\e017";
+  font-family: glyphs14;
+  margin-right: .105em;
+}
+
+.hondaHeader .pseudoHeading a.search.active:before,.hondaHeader h1 a.search.active:before {
+  content: "\e031";
+  margin-right: .07em;
+}
+
+.hondaHeader h2 {
+  font-size: 2.6em;
+  display: block;
+  color: #fff;
+  float: left;
+  margin: 0;
+  width: 100%;
+}
+
+.hondaHeader h2 a {
+  color: #fff;
+  display: block;
+  padding: .4em 0 .3em .5em;
+}
+
+.hondaHeader h2 a span.menu_btn {
+  display: block;
+  width: 30px;
+  height: 30px;
+  float: right;
+  position: relative;
+  margin-right: 5px;
+  margin-top: 3px;
+}
+
+.hondaHeader h2 a span.menu_btn span {
+  position: absolute;
+  left: 0;
+  width: 24px;
+  height: 4px;
+  background-color: #fff;
+  -webkit-transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
+  -ms-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.hondaHeader h2 a span.menu_btn span.line2 {
+  top: 7px;
+}
+
+.hondaHeader h2 a span.menu_btn span.line3 {
+  top: 14px;
+}
+
+.hondaHeader h2.active a span.menu_btn span.line1 {
+  top: 7px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.hondaHeader h2.active a span.menu_btn span.line2 {
+  opacity: 0;
+}
+
+.hondaHeader h2.active a span.menu_btn span.line3 {
+  top: 7px;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.hondaHeader .content {
+  font-family: ProximaNovaExCnSbold,Tahoma,Helvetica,Arial,sans-serif;
+}
+
+.hondaHeader .content ul {
+  margin: 0;
+}
+
+.hondaHeader article>header {
+  background: #f4f3f8;
+  font-size: 1.45em;
+  position: relative;
+  font-family: ProximaNovaExCnSReg;
+  text-align: left;
+  width: auto;
+  text-transform: uppercase;
+}
+
+.hondaHeader article>header:active,.hondaHeader article>header:active a,.hondaHeader article>header:active a:before,.hondaHeader article>header:active a:hover {
+  background: #01948b;
+  color: #fff;
+}
+
+.hondaHeader article>header a,.hondaHeader article>header a:hover {
+  color: #555;
+}
+
+.hondaHeader article>header a:before {
+  font-family: glyphs14;
+  position: absolute;
+  right: 10px;
+  top: 15px;
+  color: #00803e;
+}
+
+.hondaHeader li.active article>header a:before {
+  content: "\e015";
+}
+
+.hondaHeader article>header a[data-flyout=true]:before {
+  content: "\e013";
+}
+
+.hondaHeader article>header a[data-flyout=false]:before {
+  content: "\e00a";
+  font-size: 31px;
+  top: 11px;
+  right: 7px;
+}
+
+.hondaHeader article>header span {
+  display: block;
+  border-top: 1px solid #ddd;
+  width: 92%;
+  margin: 0 auto;
+  padding: .5em 0;
+}
+
+.hondaHeader article>header span span {
+  padding: 0;
+  margin: 0;
+  width: auto;
+  border: 0;
+}
+
+.hondaHeader section .inner>ul>li:first-child span {
+  border-top: 0;
+}
+
+.hondaHeader article>.content {
+  display: none;
+}
+
+.hondaHeader li.active article>.content {
+  display: block;
+}
+
+.hondaHeader a p span {
+  border-bottom: 1px solid #00803e;
+  -webkit-transition: border-bottom .3s;
+  -moz-transition: border-bottom .3s;
+  -ms-transition: border-bottom .3s;
+  -o-transition: border-bottom .3s;
+  transition: border-bottom .3s;
+  font-family: ProximaNovaExCnSbold,Tahoma,Helvetica,Arial,sans-serif;
+}
+
+.hondaHeader a:hover p span {
+  color: #01948b;
+  border-bottom: 3px solid #00803e;
+}
+
+.hondaHeader a:hover p span.price,.hondaHeader section .inner>ul>li.active>article>header span {
+  border-bottom: 0;
+}
+
+.hondaHeader nav.ctas {
+  background: #fff;
+  padding: 2px 0 0;
+  display: none;
+}
+
+.hondaHeader nav.ctas.active {
+  display: block;
+}
+
+.hondaHeader nav.ctas ul {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.hondaHeader nav.ctas ul [class$=registerYourInterestDiamond56Ico]:before,.hondaHeader nav.ctas ul [class$=registerYourInterestFooterDiamond56Ico]:before {
+  font-size: 28px;
+  padding-top: 12px;
+}
+
+.hondaHeader nav.ctas ul [class$=Diamond56Ico]:before {
+  position: absolute;
+  top: 0;
+  text-align: center;
+  width: 100%;
+  left: 0;
+}
+
+.hondaHeader nav.ctas ul [class$=Diamond56Ico]:after {
+  display: none;
+}
+
+.hondaHeader nav.ctas ul li:first-child {
+  border-left: none;
+}
+
+.hondaHeader nav.ctas ul li {
+  display: table-cell;
+  text-align: center;
+  border-left: 1px solid #fff;
+  width: 33.15%;
+  background-color: #00803e;
+}
+
+.hondaHeader nav.ctas ul li:hover {
+  cursor: pointer;
+  background-color: #01948b;
+}
+
+.hondaHeader nav.ctas ul li a {
+  color: #fff;
+  display: block;
+  padding-top: 2.6em;
+  padding-bottom: .2em;
+  text-transform: none;
+}
+
+.hondaHeader nav.ctas ul li a span {
+  display: block;
+  text-align: center;
+  float: none;
+}/*! Build : April 19, 2016 10:23:26 */a:hover .hoverText {
+  border-bottom: 3px solid #017d75;
+  color: #017d75;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}/*! Build : April 19, 2016 10:23:26 */@media screen and (min-width:621px) {
+  .nav-footer-wrapper p,.nav-footer-wrapper ul {
+    margin-bottom: 1.5em;
+  }
+
+  .nav-footer-wrapper code,.nav-footer-wrapper label,.nav-footer-wrapper li,.nav-footer-wrapper p {
+    font-size: 1.3em;
+    line-height: 1.571em;
+    color: #555;
+  }
+
+  .nav-footer-wrapper h1 {
+    font-size: 5em;
+    letter-spacing: .5px;
+  }
+
+  .nav-footer-wrapper h3,.nav-footer-wrapper h4,.nav-footer-wrapper h5,.nav-footer-wrapper h6 {
+    margin-bottom: .3em;
+    font-size: 2.6em;
+    line-height: 1.1em;
+    letter-spacing: 1px;
+  }
+
+  .nav-footer-wrapper h4,.nav-footer-wrapper h5,.nav-footer-wrapper h6 {
+    font-size: 1.6em;
+    line-height: 1.4em;
+  }
+
+  .nav-footer-wrapper h3 {
+    letter-spacing: .5px;
+  }
+
+  .nav-footer-wrapper #page {
+    font-size: 100%;
+    padding-bottom: 3.8em;
+  }
+
+  .nav-footer-wrapper [class$=SignPostIco]:before {
+    font-size: 56px;
+    left: -4px;
+    position: relative;
+    top: 15px;
+  }
+
+  .nav-footer-wrapper [class$='56Ico']:before,[class$='56Ico']:after {
+    font-size: 56px;
+  }
+
+  .nav-footer-wrapper [class$=Diamond56Ico]:before,[class$=Quote45Ico]:before {
+    position: relative;
+    z-index: 10;
+    color: #fff;
+    top: 15px;
+    left: 6px;
+  }
+
+  .nav-footer-wrapper [class$=Diamond56Ico]:after,[class$=Quote45Ico]:after {
+    z-index: 1;
+    left: 0;
+    position: absolute;
+    top: 0;
+  }
+
+  .nav-footer-wrapper #outer {
+    position: relative;
+    min-height: 100%;
+    overflow: hidden;
+    z-index: 3;
+  }
+
+  .nav-footer-wrapper #page {
+    min-height: 1px;
+  }
+
+  .nav-footer-wrapper #page:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+  }
+
+  .nav-footer-wrapper .inner,.nav-footer-wrapper .wrapper {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 992px;
+    text-align: left;
+    clear: both;
+  }
+}
+
+@media only screen and (min-width:621px) and (max-width:800px) {
+  .nav-footer-wrapper #outer {
+    z-index: 2;
+  }
+}
+
+@media (min-width:1024px) {
+  .hondaHeader {
+    padding-top: 4.7em;
+    background: #fff;
+    padding-bottom: 0;
+  }
+
+  .hondaHeader>section.active+.ctas {
+    margin-bottom: 0;
+  }
+
+  .hondaHeader .pseudoHeading .search,.hondaHeader .pseudoHeading a img,.hondaHeader article>header,.hondaHeader h1 .search,.hondaHeader h1 a img,.hondaHeader nav h2,.hondaHeader>.inner>div.active {
+    display: none;
+  }
+
+  .hondaHeader .pseudoHeading,.hondaHeader h1 {
+    position: absolute;
+    z-index: 2;
+    height: 112px;
+    width: 175px;
+    top: -47px;
+    padding: 0;
+  }
+
+  .hondaHeader .pseudoHeading a.logo,.hondaHeader h1 a.logo {
+    width: 100%;
+    height: 100%;
+  }
+
+  .hondaHeader .pseudoHeading a img.desktopLogo,.hondaHeader h1 a img.desktopLogo {
+    display: block;
+  }
+
+  .hondaHeader nav.accessibilityLinks {
+    background: 0;
+    border: 0;
+    width: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: -42px;
+    right: 0;
+    overflow: hidden;
+    display: block;
+  }
+
+  .hondaHeader nav.accessibilityLinks li {
+    float: left;
+    padding: .5em;
+  }
+
+  .hondaHeader nav.accessibilityLinks li a {
+    position: absolute;
+    top: 0;
+    left: -1252px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    font-size: 1em;
+    font-weight: 700;
+    color: #fff;
+    display: inline;
+    padding: 0;
+  }
+
+  .hondaHeader nav.accessibilityLinks li a:active,.hondaHeader nav.accessibilityLinks li a:focus {
+    display: block;
+    z-index: 1999;
+    left: auto;
+    right: 0;
+    margin: 0;
+    padding: .5em 1em;
+    width: 200px;
+    height: auto;
+    overflow: visible;
+    text-align: center;
+    background: #dc182d;
+    border: 2px solid #fff;
+  }
+
+  .hondaHeader nav.primaryNavigation {
+    padding: 1.8em 0 1.6em;
+    height: 31px;
+    margin-bottom: 2px;
+  }
+
+  .hondaHeader nav.primaryNavigation ul {
+    display: block;
+    margin-left: 21em;
+    margin-top: .3em;
+    margin-bottom: 0;
+    padding: 0;
+  }
+
+  .hondaHeader nav.primaryNavigation ul li {
+    float: left;
+    margin-right: 27px;
+    padding-top: .3em;
+  }
+
+  .hondaHeader nav.primaryNavigation ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.7em;
+    border-bottom: 1px solid #ee8c96;
+    -webkit-transition: border-bottom .2s;
+    -moz-transition: border-bottom .2s;
+    -ms-transition: border-bottom .2s;
+    -o-transition: border-bottom .2s;
+    transition: border-bottom .2s;
+    font-family: ProximaNovaExCnSReg;
+    white-space: nowrap;
+    letter-spacing: normal;
+  }
+
+  .hondaHeader nav.primaryNavigation ul li a:hover {
+    border-bottom: 3px solid #fff;
+  }
+
+  .hondaHeader nav.primaryNavigation ul li a span {
+    display: none;
+  }
+
+  .hondaHeader nav.primaryNavigation form {
+    position: relative;
+    display: block;
+    float: right;
+    width: 16%;
+    border-bottom: 1px solid #ee8c96;
+    -webkit-transition: border-bottom .3s;
+    -moz-transition: border-bottom .3s;
+    -ms-transition: border-bottom .3s;
+    -o-transition: border-bottom .3s;
+    transition: border-bottom .3s;
+    margin-top: -5px;
+    margin-right: 16px;
+  }
+
+  .hondaHeader nav.primaryNavigation form:hover {
+    border-bottom: 3px solid #fff;
+  }
+
+  .hondaHeader nav.primaryNavigation input[type=text] {
+    background-color: transparent;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    font-family: Tahoma,Arial,Helvetica,sans-serif;
+    color: #fff;
+    border-radius: 0;
+    border: 0;
+    margin: 0;
+    height: 30px;
+    outline: 0;
+    width: 74%;
+    padding: .1em 0 0 .6em;
+  }
+
+  .hondaHeader nav.primaryNavigation form.active,.hondaHeader nav.primaryNavigation form.active input[type=text] {
+    background: #fff;
+    color: #000;
+    border-bottom: 0;
+  }
+
+  .hondaHeader nav.primaryNavigation button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    width: 32px;
+    height: 32px;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    color: transparent;
+    border: 0;
+    background-color: transparent;
+  }
+
+  .hondaHeader nav.primaryNavigation button:before {
+    content: "\e017";
+    font-family: glyphs14;
+    color: #fff;
+    font-size: 29px;
+    line-height: 1.2;
+    position: relative;
+    z-index: 9;
+    float: right;
+  }
+
+  .hondaHeader nav.primaryNavigation form.active button:before {
+    color: #00803e;
+  }
+
+  .hondaHeader section {
+    overflow: hidden;
+    display: block;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom .8s;
+    -moz-transition: border-bottom .8s;
+    transition: border-bottom .8s;
+  }
+
+  .hondaHeader section.active {
+    border-bottom: 2px solid #3b3b3b;
+  }
+
+  .hondaHeader section .inner {
+    -webkit-transition: max-height .8s;
+    -moz-transition: max-height .8s;
+    transition: max-height .8s;
+    max-height: 0;
+    overflow: hidden;
+    padding-right: 16px;
+    padding-left: 16px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  .hondaHeader section.active .inner {
+    max-height: 200em;
+  }
+
+  .hondaHeader section>.inner>ul>li {
+    max-height: 0;
+    opacity: 0;
+    -webkit-transition: 1s opacity;
+    -moz-transition: 1s opacity;
+    transition: 1s opacity;
+  }
+
+  .hondaHeader section>.inner>ul>li.active {
+    max-height: 100em;
+    opacity: 1;
+    -webkit-transform: translateZ(0);
+    padding-top: 2em;
+  }
+}
+
+@media screen and (min-width:621px) {
+  .responsiveFooter section article:first-child {
+    margin-left: 0;
+  }
+}
+
+@media screen and (min-width:801px) {
+  .responsiveFooter section {
+    padding: 3em 6em;
+  }
+
+  .responsiveFooter .ctas {
+    background: #fff;
+    float: left;
+    width: 25%;
+  }
+
+  .responsiveFooter .ctas li {
+    box-sizing: border-box;
+    display: block;
+    margin-bottom: 1.1em;
+    moz-box-sizing: border-box;
+    padding: 1em 0 1em 64px;
+    position: relative;
+    text-align: left;
+    webkit-box-sizing: border-box;
+    width: 100%;
+  }
+
+  .responsiveFooter .ctas li:hover {
+    background-color: transparent;
+  }
+
+  .responsiveFooter .ctas li a {
+    border-bottom: 1px solid #7fbf9e;
+    clear: both;
+    color: #3b3b3b;
+    display: inline;
+    font-size: 1.13em;
+    letter-spacing: 2px;
+    margin-left: 0;
+    padding: 0;
+    text-transform: uppercase;
+  }
+
+  .responsiveFooter .ctas li a:hover {
+    border-bottom: 3px solid #017d75;
+    color: #017d75;
+  }
+
+  .responsiveFooter .ctas li a:before {
+    color: #fff;
+    font-size: 48px;
+    left: -1.26em;
+    position: absolute;
+    top: -.224em;
+  }
+
+  .responsiveFooter .ctas li a:after {
+    display: block;
+    left: -1.15em;
+    position: absolute;
+    top: -.28em;
+  }
+
+  .responsiveFooter .ctas li a:hover:after {
+    color: #017d75;
+  }
+
+  .responsiveFooter .footerAccordion.active .content {
+    border-bottom: 0;
+  }
+
+  .responsiveFooter article {
+    clear: none;
+    float: left;
+    margin-left: 2em;
+    width: 21.5%;
+  }
+
+  .responsiveFooter .footerAccordion .footerHeading,.responsiveFooter article .footerHeading {
+    background: #fff;
+    border-bottom: 1px solid #afafb0;
+    border-top: 2px solid #585858;
+    color: #1f1f1f;
+    display: block;
+    font-family: ProximaNovaExCnLight,Tahoma,Helvetica,Arial,sans-serif;
+    line-height: 1.15;
+    margin-bottom: 0;
+    padding: .75em 0;
+    text-align: left;
+    width: 100%;
+  }
+
+  .responsiveFooter article .footerHeadingButton {
+    display: none;
+  }
+
+  .responsiveFooter article ul {
+    margin-top: 1.5em;
+  }
+
+  .responsiveFooter article li {
+    margin-bottom: .5em;
+    padding: .1em 0;
+  }
+
+  .responsiveFooter .usefulLinksResponsive li {
+    margin: 0 0 .54em;
+    padding: 0;
+  }
+
+  .responsiveFooter article li a,.responsiveFooter article.usefulLinksResponsive li a {
+    border-bottom: 1px solid #7fbf9e;
+    color: #3b3b3b;
+    display: inline;
+    font-family: Tahoma,Helvetica,Arial,sans-serif;
+    font-size: 1em;
+    letter-spacing: 0;
+    padding: 0;
+  }
+
+  .responsiveFooter article li a:hover {
+    border-bottom: 3px solid #017d75;
+    color: #017d75;
+  }
+
+  .responsiveFooter article .content {
+    display: block;
+  }
+
+  .responsiveFooter article .content ul {
+    padding: 0;
+  }
+
+  .responsiveFooter article .content ul li {
+    border-top: 0;
+    padding: 0;
+  }
+
+  .responsiveFooter article .content ul li a:before {
+    display: none;
+  }
+
+  .responsiveFooter .social {
+    margin: 1.5em 0;
+    overflow: visible;
+  }
+
+  .responsiveFooter .social li,.responsiveFooter article.usefulLinksResponsive li {
+    text-align: left;
+    width: 100%;
+  }
+
+  .responsiveFooter .social li {
+    padding: 0 0 .5em 34px;
+  }
+
+  .responsiveFooter .social li a {
+    border-left: 0;
+    display: inline;
+    padding: 0;
+  }
+
+  .responsiveFooter .social li a:before {
+    left: -34px;
+    margin-left: 0;
+    top: -.2em;
+  }
+
+  .responsiveFooter .social li a:hover:before {
+    color: #017d75;
+  }
+
+  .responsiveFooter .social li a:after {
+    display: none;
+  }
+
+  .responsiveFooter .social[data-amount="1"] li,.responsiveFooter .social[data-amount="2"] li,.responsiveFooter .social[data-amount="3"] li,.responsiveFooter .social[data-amount="4"] li {
+    margin-bottom: 0;
+    width: 100%;
+  }
+
+  .responsiveFooter article.usefulLinksResponsive {
+    border-top: 0;
+  }
+
+  .responsiveFooter article.usefulLinksResponsive ul {
+    padding: 0;
+  }
+
+  .responsiveFooter .usefulLinksResponsive .footerHeading {
+    display: block;
+  }
+
+  .responsiveFooter .logoFooter {
+    border-top: 1px solid #ddd;
+    clear: both;
+    padding-top: 2.5em;
+  }
+
+  .responsiveFooter .logoFooter img {
+    display: inline;
+    float: left;
+    margin: 0;
+  }
+
+  .responsiveFooter .logoFooter p {
+    float: left;
+    font-size: 1.2em;
+    margin-left: 1em;
+  }
+}
+
+@media screen and (min-width:621px) and (max-width:800px) {
+  .responsiveFooter .ctaWrap {
+    background: #00803e;
+  }
+
+  .responsiveFooter .ctas {
+    margin: 0 auto;
+    width: 70%;
+  }
+
+  .responsiveFooter .ctas li:before {
+    font-size: 48px;
+  }
+
+  .responsiveFooter .social li a,.responsiveFooter article .content li a {
+    font-size: 1.1em;
+  }
+
+  .responsiveFooter article {
+    margin-bottom: 2em;
+  }
+
+  .responsiveFooter article .content {
+    display: block;
+  }
+
+  .responsiveFooter article .content ul {
+    border-bottom: 3px solid #f4f3f8;
+    margin: 0 4em 2em;
+    padding: 0;
+  }
+
+  .responsiveFooter article .content li {
+    border-bottom: 1px solid #f4f3f8;
+    border-top: 0;
+    display: inline-block;
+    margin-right: 1.5em;
+    padding: .8em 0;
+    width: 47.3%;
+  }
+
+  .responsiveFooter article .content li:nth-child(2n) {
+    margin-right: 0;
+  }
+
+  .responsiveFooter .footerAccordion .footerHeading {
+    font-family: ProximaNovaExCnLight,Tahoma,Helvetica,Arial,sans-serif;
+    padding: .7em 1.7em;
+  }
+
+  .responsiveFooter article .footerHeadingButton {
+    display: none;
+  }
+
+  .responsiveFooter .footerAccordion.active .content {
+    border-bottom: 0;
+  }
+
+  .responsiveFooter .social,.responsiveFooter .usefulLinksResponsive ul {
+    margin: 0 auto;
+    width: 50%;
+  }
+
+  .responsiveFooter .usefulLinksResponsive li {
+    margin-bottom: 1.1em;
+  }
+
+  .responsiveFooter .usefulLinksResponsive li a {
+    font-size: .9em;
+  }
+}/*! Build : April 19, 2016 10:23:26 */@media (min-width:1024px) {
+  .hondaHeader {
+    padding-top: 4.7em;
+    background: #fff;
+    padding-bottom: 0;
+  }
+
+  .hondaHeader>section.active+.ctas {
+    margin-bottom: 0;
+  }
+
+  .hondaHeader .pseudoHeading .search,.hondaHeader .pseudoHeading a img,.hondaHeader article>header,.hondaHeader h1 .search,.hondaHeader h1 a img,.hondaHeader nav h2,.hondaHeader>.inner>div.active {
+    display: none;
+  }
+
+  .hondaHeader .pseudoHeading,.hondaHeader h1 {
+    position: absolute;
+    z-index: 2;
+    height: 112px;
+    width: 175px;
+    top: -47px;
+    padding: 0;
+  }
+
+  .hondaHeader .pseudoHeading a.logo,.hondaHeader h1 a.logo {
+    width: 100%;
+    height: 100%;
+  }
+
+  .hondaHeader .pseudoHeading a img.desktopLogo,.hondaHeader h1 a img.desktopLogo {
+    display: block;
+  }
+
+  .hondaHeader nav.accessibilityLinks {
+    background: 0;
+    border: 0;
+    width: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: -42px;
+    right: 0;
+    display: block;
+  }
+
+  .hondaHeader nav.accessibilityLinks li {
+    float: left;
+    padding: .5em;
+  }
+
+  .hondaHeader nav.accessibilityLinks li a {
+    position: absolute;
+    top: 0;
+    left: -1252px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    font-size: 1em;
+    font-weight: 700;
+    color: #fff;
+    display: inline;
+    padding: 0;
+  }
+
+  .hondaHeader nav.accessibilityLinks li a:active,.hondaHeader nav.accessibilityLinks li a:focus {
+    display: block;
+    z-index: 1999;
+    left: auto;
+    right: 0;
+    margin: 0;
+    padding: .5em 1em;
+    width: 200px;
+    height: auto;
+    overflow: visible;
+    text-align: center;
+    background: #dc182d;
+    border: 2px solid #fff;
+  }
+
+  .hondaHeader nav.primaryNavigation {
+    padding: 1.8em 0 1.6em;
+    height: 31px;
+    margin-bottom: 2px;
+  }
+
+  .hondaHeader nav.primaryNavigation ul {
+    display: block;
+    margin-left: 21em;
+    margin-top: .3em;
+    margin-bottom: 0;
+    padding: 0;
+  }
+
+  .hondaHeader nav.primaryNavigation ul li {
+    float: left;
+    margin-right: 27px;
+    padding-top: .3em;
+  }
+
+  .hondaHeader nav.primaryNavigation ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.7em;
+    border-bottom: 1px solid #ee8c96;
+    -webkit-transition: border-bottom .2s;
+    -moz-transition: border-bottom .2s;
+    -ms-transition: border-bottom .2s;
+    -o-transition: border-bottom .2s;
+    transition: border-bottom .2s;
+    font-family: ProximaNovaExCnSReg;
+    white-space: nowrap;
+    letter-spacing: normal;
+  }
+
+  .hondaHeader nav.primaryNavigation ul li a:hover {
+    border-bottom: 3px solid #fff;
+  }
+
+  .hondaHeader nav.primaryNavigation ul li a span {
+    display: none;
+  }
+
+  .hondaHeader nav.primaryNavigation form {
+    position: relative;
+    display: block;
+    float: right;
+    width: 16%;
+    border-bottom: 1px solid #ee8c96;
+    -webkit-transition: border-bottom .3s;
+    -moz-transition: border-bottom .3s;
+    -ms-transition: border-bottom .3s;
+    -o-transition: border-bottom .3s;
+    transition: border-bottom .3s;
+    margin-top: -5px;
+    margin-right: 16px;
+  }
+
+  .hondaHeader nav.primaryNavigation form:hover {
+    border-bottom: 3px solid #fff;
+  }
+
+  .hondaHeader nav.primaryNavigation input[type=text] {
+    background-color: transparent;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    font-family: Tahoma,Arial,Helvetica,sans-serif;
+    color: #fff;
+    border-radius: 0;
+    border: 0;
+    margin: 0;
+    height: 30px;
+    outline: 0;
+    width: 74%;
+    padding: .1em 0 0 .6em;
+  }
+
+  .hondaHeader nav.primaryNavigation form.active,.hondaHeader nav.primaryNavigation form.active input[type=text] {
+    background: #fff;
+    color: #000;
+    border-bottom: 0;
+  }
+
+  .hondaHeader nav.primaryNavigation button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    width: 32px;
+    height: 32px;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    color: transparent;
+    border: 0;
+    background-color: transparent;
+  }
+
+  .hondaHeader nav.primaryNavigation button:before {
+    content: "\e017";
+    font-family: glyphs14;
+    color: #fff;
+    font-size: 29px;
+    line-height: 1.2;
+    position: relative;
+    z-index: 9;
+    float: right;
+  }
+
+  .hondaHeader nav.primaryNavigation form.active button:before {
+    color: #00803e;
+  }
+
+  .hondaHeader section {
+    overflow: hidden;
+    display: none;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom .8s;
+    -moz-transition: border-bottom .8s;
+    transition: border-bottom .8s;
+  }
+
+  .hondaHeader section.active {
+    display: none;
+    border-bottom: 2px solid #3b3b3b;
+  }
+
+  .hondaHeader section .inner {
+    -webkit-transition: max-height .8s;
+    -moz-transition: max-height .8s;
+    transition: max-height .8s;
+    max-height: 0;
+    overflow: hidden;
+    padding-right: 16px;
+    padding-left: 16px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  .hondaHeader section.active .inner {
+    max-height: 200em;
+  }
+
+  .hondaHeader section>.inner>ul>li {
+    max-height: 0;
+    opacity: 0;
+    -webkit-transition: 1s opacity;
+    -moz-transition: 1s opacity;
+    transition: 1s opacity;
+  }
+
+  .hondaHeader section>.inner>ul>li.active {
+    max-height: 100em;
+    opacity: 1;
+    -webkit-transform: translateZ(0);
+    padding-top: 2em;
+  }
+}
+
+@media screen and (min-width:621px) {
+  .hondaHeader article>.content>div>ul {
+    width: 77%;
+    float: left;
+  }
+
+  .hondaHeader article>.content>div ul li:hover {
+    background: #f4f3f8;
+  }
+
+  .hondaHeader article>.content li p {
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 0 0 .7em;
+    width: 100%;
+    font-family: ProximaNovaExCnSbold,Tahoma,Helvetica,Arial,sans-serif;
+    font-size: 1.3em!important;
+  }
+
+  .hondaHeader article>.content li p span {
+    border-bottom: 1px solid #7fbf9e;
+    transition: .3s border-bottom;
+    -webkit-transition: .3s border-bottom;
+  }
+
+  .hondaHeader article>.content li a:hover p span {
+    border-bottom: 3px solid #017d75;
+  }
+
+  .hondaHeader article>.content li a>p>span>span {
+    position: absolute;
+    top: -8px;
+    left: 0;
+    width: 100%;
+    color: #dc182d;
+    font-size: .8em;
+    line-height: 1;
+    text-align: center;
+    text-transform: none;
+    border-bottom: 0;
+  }
+
+  .hondaHeader article>.content li a:hover p>span.price,.hondaHeader article>.content li a:hover p>span>span,.hondaHeader article>.content li a:hover p>span>span .street {
+    border-bottom: 0;
+  }
+}
+
+@media screen and (min-width:1024px) {
+  .hondaHeader nav.ctas {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    right: 0;
+    background-color: transparent;
+    padding: 0;
+    display: block;
+  }
+
+  .hondaHeader nav.ctas ul {
+    display: block;
+    float: right;
+    width: auto;
+    margin: 0;
+    padding: 0 16px 0 0;
+  }
+
+  .hondaHeader nav.ctas ul li {
+    display: inline-block;
+    width: auto;
+    padding: 1em 0 2em 3.4em;
+    margin-right: 0;
+    margin-left: 1.3em;
+    border-left: none;
+    float: left;
+  }
+
+  .hondaHeader nav.ctas ul li,.hondaHeader nav.ctas ul li:hover {
+    cursor: default;
+    background-color: transparent;
+  }
+
+  .hondaHeader nav.ctas ul li a {
+    background: #fff;
+    color: #555;
+    text-transform: none;
+    font-family: Tahoma,Arial,Helvetica,sans-serif;
+    font-size: .9em;
+    padding: .11em 0 0;
+    -webkit-transition: border-bottom .3s;
+    -moz-transition: border-bottom .3s;
+    -ms-transition: border-bottom .3s;
+    -o-transition: border-bottom .3s;
+    transition: border-bottom .3s;
+  }
+
+  .hondaHeader nav.ctas ul li a:hover {
+    background: 0 0;
+    color: #017d75;
+    border-bottom: 3px solid #017d75;
+  }
+
+  .hondaHeader nav.ctas ul li a:hover:before {
+    color: #017d75;
+  }
+
+  .hondaHeader nav.ctas ul [class$=Diamond56Ico]:before,.hondaHeader nav.ctas ul [class$=Quote45Ico]:before {
+    color: #00803e;
+    font-size: 46px;
+    width: auto;
+    font-family: glyphs28;
+    left: -44px;
+    top: -11px;
+  }
+
+  .hondaHeader nav.ctas ul [class$=registerYourInterestDiamond56Ico]:before,.hondaHeader nav.ctas ul [class$=registerYourInterestFooterDiamond56Ico]:before {
+    font-size: 24px;
+    top: 1px;
+    left: -30px;
+    padding-top: 0;
+  }
+
+  .hondaHeader .products>article>.content {
+    width: 200%;
+    overflow: hidden;
+    margin-bottom: 2.8em;
+  }
+}
+
+@media (min-width:621px) and (max-width:1023px) {
+  .hondaHeader li {
+    font-size: 1.6em;
+  }
+}/*! Build : April 19, 2016 10:23:26 */

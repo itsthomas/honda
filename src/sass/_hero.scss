@@ -1,0 +1,95 @@
+.hero {
+  max-width:100%;
+	margin:auto;
+	position:relative;
+  z-index: 10;
+}
+
+.hero__caption {
+  @include span(isolate 10 of 12 at 2);
+  text-align: center;
+  position: absolute;
+  top: 5%;
+
+  @media only screen and (min-width: 375px) {
+    top: 7%;
+  }
+
+  @media only screen and (min-width: 768px) {
+    top: 7%;
+  }
+
+  @media only screen and (min-width: 1400px) {
+    @include span(12);
+    top: 10%;
+  }
+  
+  .hero__caption__text {
+    text-transform: uppercase;
+    font-size: 1.9rem;
+    line-height: 1;
+    color: #dd182e;
+
+    @media only screen and (min-width: 414px) {
+      font-size: 2.2rem;
+    }
+
+    @media only screen and (min-width: 768px) {
+      font-size: 2.5rem;
+    }
+
+    @media only screen and (min-width: 1170px) {
+      font-size: 3.2rem;
+    }
+
+    @media only screen and (min-width: 1440px) {
+      font-size: 4.2rem;
+    }
+  
+  }
+
+  .hero__bc {
+    margin: 10px auto;
+    font-size: 1.3rem;
+    color: #272727;
+
+    @media only screen and (min-width: 375px) {
+      font-size: 1.5rem;
+    }
+
+    @media only screen and (min-width: 768px) {
+      width: 75%;
+    }
+
+    @media only screen and (min-width: 1024px) {
+      width: 85%;
+      margin: 40px auto;
+      font-size: 1.8rem;
+    }
+
+    @media only screen and (min-width: 1400px) {
+      font-size: 2.3rem;
+      width: 45%;
+      margin: 40px auto;
+    }
+
+  }
+
+  .hero__price {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    color: #dd182e;
+    @media only screen and (min-width: 375px) {
+      font-size: 1.5rem;
+    }
+
+    @media only screen and (min-width: 1024px) {
+      font-size: 1.8rem;
+    }
+
+    @media only screen and (min-width: 1400px) {
+      font-size: 2.3rem;
+    }
+  }
+
+}
